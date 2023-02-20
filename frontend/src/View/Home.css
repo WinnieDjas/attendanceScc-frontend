@@ -4,18 +4,33 @@
 }
 .HomeContainer{
     height: 100vh;
-    /* background: black; */
+    /* background: yellowgreen; */
     background-image: url("https://res.cloudinary.com/dggvxdkri/image/upload/v1665065699/samples/Attendance%20pict/Regtank-KYC-Compliance-Made-Simple-1024x683_ogu3gc.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.homeModel{
-    background-color: black;
+ .HomeContainer .homeModel{
+    /* background-color: yellow; */
     width: 50%;
     height: 50vh;
-    /* margin-bottom: 100px; */
+     margin-bottom: 100px; 
     margin-top: 10px;
-    /* margin-left: 350px; */
+     margin-left: 350px; 
 
+} 
+.HomeContainer .homeModel .rightSide{
+    color: white;
+    display: flex;
+    flex: 50%;
+    justify-content: center;
 }
+.leftSide{
+    color: white;
+    display: flex;
+    flex: 20%;
+    justify-content: baseline;
+}
+
+ 
+ 

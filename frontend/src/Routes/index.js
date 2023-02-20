@@ -1,11 +1,13 @@
-import Navbar from "../Components/Navbar";
+// import Navbar from "../Components/Navbar";
+// import Contact from "../View/Contact";
+import Home from "../View/Home";
 
 const MainRoutes =() =>{
  return(
   <Routes>
-    {/* <Route path="/navbar" element={<Navbar/>}> */}
+    <Route path="/Home" element={<Home/>}>
 
-    {/* </Route> */}
+    </Route>
   </Routes>
  );
 };
